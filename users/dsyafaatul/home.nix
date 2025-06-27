@@ -11,6 +11,10 @@
       init.defaultBranch = "main";
     };
   };
+
+  home.packages = with pkgs; [
+    google-chrome
+  ];
   
   home.stateVersion = "25.05";
 }
