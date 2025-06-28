@@ -3,13 +3,21 @@
   home.username = "dsyafaatul";
   home.homeDirectory = "/home/dsyafaatul";
   
-  programs.git = {
-    enable = true;
-    userEmail = "dikisyafaatul@gmail.com";
-    userName = "D. Syafa'atul Anbiya";
-    extraConfig = {
-      init.defaultBranch = "main";
+  programs = {
+    git = {
+      enable = true;
+      userEmail = "dikisyafaatul@gmail.com";
+      userName = "D. Syafa'atul Anbiya";
+      extraConfig = {
+        init.defaultBranch = "main";
+      };
     };
+    direnv = {
+      enable = true;
+      enableBashIntegration = true;
+      nix-direnv.enable = true;
+    };
+    bash.enable = true;
   };
 
   home.packages = with pkgs; [
