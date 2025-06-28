@@ -28,6 +28,7 @@
       ];
     })
     dbeaver-bin
+    onlyoffice-desktopeditors
     neofetch
   ];
 
