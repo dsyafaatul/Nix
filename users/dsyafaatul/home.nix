@@ -19,6 +19,7 @@
         mhutchie.git-graph
       ];
     })
+    dbeaver-bin
   ];
   
   home.stateVersion = "25.05";
