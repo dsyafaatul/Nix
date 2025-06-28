@@ -30,6 +30,10 @@
     dbeaver-bin
     neofetch
   ];
+
+  home.shellAliases = {
+    switch = "sudo nixos-rebuild switch --flake ~/nix/#HPPavilion14";
+  };
   
   home.stateVersion = "25.05";
 }
