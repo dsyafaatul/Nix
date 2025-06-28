@@ -28,6 +28,7 @@
       ];
     })
     dbeaver-bin
+    neofetch
   ];
   
   home.stateVersion = "25.05";
