@@ -30,7 +30,6 @@
     dbeaver-bin
     onlyoffice-desktopeditors
     zoom-us
-    waydroid
     neofetch
   ];
 
