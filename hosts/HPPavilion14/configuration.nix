@@ -88,6 +88,7 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
+    pritunl-client
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -108,6 +109,16 @@
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
+
+  systemd.services = {
+    pritunl-client-service = {
+      description = "Pritunl Client Daemon";
+      wantedBy = [ "multi-user.target" ];
+      serviceConfig = {
+        ExecStart = "${pkgs.pritunl-client}/bin/pritunl-client-service";
+      };
+    };
+  };
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
