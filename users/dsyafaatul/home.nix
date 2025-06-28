@@ -29,6 +29,7 @@
     })
     dbeaver-bin
     onlyoffice-desktopeditors
+    zoom-us
     neofetch
   ];
 
