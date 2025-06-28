@@ -14,6 +14,11 @@
 
   home.packages = with pkgs; [
     google-chrome
+    (vscode-with-extensions.override {
+      vscodeExtensions = with vscode-extensions; [
+        mhutchie.git-graph
+      ];
+    })
   ];
   
   home.stateVersion = "25.05";
