@@ -29,6 +29,7 @@
     })
     dbeaver-bin
     onlyoffice-desktopeditors
+    vlc
     zoom-us
     neofetch
   ];
