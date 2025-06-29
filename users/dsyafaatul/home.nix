@@ -32,6 +32,7 @@
     vlc
     blender
     zoom-us
+    monitor
     neofetch
   ];
 
@@ -61,6 +62,24 @@
     "io/elementary/desktop/wingpanel/power" = {
       show-percentage = true;
     };
+    "com/github/stsdc/monitor/settings" = {
+      indicator-state = true;
+      indicator-cpu-state = true;
+      indicator-cpu-frequency-state = true;
+      indicator-cpu-temperature-state = true;
+      indicator-memory-state = true;
+      indicator-network-upload-state = true;
+      indicator-network-download-state = true;
+      background-state = true;
+      containers-view-state = true;
+    };
+  };
+
+  xdg.autostart = {
+    enable = true;
+    entries = [
+      "${pkgs.monitor}/share/applications/com.github.stsdc.monitor.desktop"
+    ];
   };
   
   home.stateVersion = "25.05";
