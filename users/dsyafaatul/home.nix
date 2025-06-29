@@ -30,6 +30,7 @@
     dbeaver-bin
     onlyoffice-desktopeditors
     vlc
+    blender
     zoom-us
     neofetch
   ];
