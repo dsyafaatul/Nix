@@ -32,6 +32,7 @@
     vlc
     blender
     zoom-us
+    telegram-desktop
     monitor
     neofetch
   ];
