@@ -51,7 +51,7 @@
       icon-size = 32;
       autohide-mode = "overlapping-window";
     };
-    "io/elementary/desktop/wm/behavior/move-maximized-workspace" = {
+    "io/elementary/desktop/wm/behavior" = {
       move-maximized-workspace = true;
     };
     "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0" = {
