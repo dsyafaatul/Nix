@@ -27,6 +27,8 @@
       vscodeExtensions = with vscode-extensions; [
         mhutchie.git-graph
         donjayamanne.githistory
+        github.copilot
+        github.copilot-chat
       ];
     })
     dbeaver-bin
