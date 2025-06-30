@@ -25,6 +25,7 @@
     (vscode-with-extensions.override {
       vscodeExtensions = with vscode-extensions; [
         mhutchie.git-graph
+        donjayamanne.githistory
       ];
     })
     dbeaver-bin
