@@ -32,6 +32,7 @@
     onlyoffice-desktopeditors
     vlc
     blender
+    obs-studio
     zoom-us
     telegram-desktop
     anydesk
