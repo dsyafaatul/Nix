@@ -34,6 +34,7 @@
     blender
     zoom-us
     telegram-desktop
+    anydesk
     monitor
     neofetch
   ];
