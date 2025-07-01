@@ -23,7 +23,6 @@
   home.packages = with pkgs; [
     google-chrome
     (vscode-with-extensions.override {
-      vscode = vscodium;
       vscodeExtensions = with vscode-extensions; [
         mhutchie.git-graph
         donjayamanne.githistory
