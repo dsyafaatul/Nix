@@ -35,6 +35,7 @@
     obs-studio
     zoom-us
     telegram-desktop
+    discord
     anydesk
     monitor
     neofetch
