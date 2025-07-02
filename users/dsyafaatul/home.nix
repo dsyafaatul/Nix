@@ -28,6 +28,7 @@
         donjayamanne.githistory
       ];
     })
+    android-studio
     dbeaver-bin
     onlyoffice-desktopeditors
     vlc
